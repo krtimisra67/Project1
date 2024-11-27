@@ -1,0 +1,181 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:monospace;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#parent{
+    height: 100%;
+    width: 100%;
+    background-color:white;
+
+}  
+
+#nav{
+    height: 100px;
+    width: 100%;
+    background-color:white;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0px 50px;
+}
+
+#nav1{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#nav2{
+    display:flex;
+}
+
+#nav1 h3{
+    font-size:17px;
+    border:1px solid black;
+    padding:5px 10px;
+    font-weight: 500;
+    border-radius:50px;
+
+}
+
+
+#nav1 i{
+    font-size:17px;
+    border:1px solid black;
+    padding:5px 10px;
+    font-weight: 500;
+    border-radius:50px;
+}
+
+#nav2 i
+{ font-size:30px;
+    border:1px solid black;
+    /* padding:5px 10px; */
+    font-weight: 500;
+    border-radius:50px;
+    background-color: orangered;
+}
+
+#nav2 h1{
+    font-weight:500;
+    font-size:22px;
+}
+
+#nav3 button{
+    padding: 7px 12px;
+    border-radius: 50px;
+    font-weight:500;
+    border:1px solid black;
+    font-size:12px; 
+}
+
+#button2
+{
+    background-color: orangered;
+    color:white;
+
+}
+
+#parent>h1{
+    font-size:170px;
+    position:absolute;
+    font-weight:500;
+    top:50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    width:100%;
+    text-align:center;
+
+}
+
+img{
+    height:350px;
+    width:300px;
+    object-fit:cover;
+    position:absolute;
+    top:50%;
+    left:50%;
+    border-radius:30px;
+    transform:translate(-50%,-50%);
+}
+
+#img1
+{
+    transform:translate(-50%,-50%) rotate(-30deg);
+}
+#img2{
+    transform:translate(-50%,-50%) rotate(-20deg);
+}
+#img3{
+    transform:translate(-50%,-50%) rotate(-10deg);
+}
+#img4{
+    transform:translate(-50%,-50%) rotate(-40 deg);
+}
+
+#btm-left{
+    position:absolute;
+    bottom: 5%;
+    left:2%;
+    font-size:15px;
+    font-weight:500;
+}
+
+#btm-right{
+    position:absolute;
+    bottom:5%;
+    right:2%;
+    font-size:17px;
+    font-weight:500;
+}
+
+
+#last>h5
+{
+display:flex;
+position:absolute;
+bottom:5%;
+right:5%;
+}
+
+
+#least kriti {
+    position:absolute;
+    bottom:9%;
+    right:8%;
+    display:flex;
+}
+#k1 i{
+    position:absolute;
+    bottom:9%;
+    right:14% ;
+}
+#k2 i{
+    position:absolute;
+    bottom:9%;
+    right:12% ;
+}
+#k3 i{
+    position:absolute;
+    bottom:9%;
+    right:10% ;
+}
+
+#arrow i{
+    position:absolute;
+    bottom:0%;
+    left:50%;
+    font-size: 30px;
+    font-weight:500px;
+    border:1.5px solid black;
+    border-radius: 100px 100px 0 0;
+}
